@@ -1,0 +1,79 @@
+#title{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size:30px;
+  height:
+}
+#description{
+  text-align: center;
+  font-family: 'Poppins', sans-serif; ;
+  font-weight: 200;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+#survey-form{
+  max-width:500px;
+  margin: 50px auto;
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 30px 20px;
+}
+.form-control{
+  text-align:left;
+  margin-bottom:25px;
+}
+.form-control label {
+display: block;
+margin-bottom: 10px;
+ }
+.form-control input{
+  border: 1px solid #777;
+  border-radius: 2px;
+  padding: 9px;
+  width: 90%;
+  display :block;
+  font-family: nherit;
+}
+.form-control select{
+  border: 1px solid #777;
+  border-radius: 2px;
+  padding: 9px;
+  width: 90%;
+  display :block;
+  font-family: nherit;
+}
+.form-control textarea{
+  border: 1px solid #777;
+  border-radius:2px;
+   font-family: inherit;
+   padding-bottom: 80px;
+   display: block;
+   width: 100%;
+     height:30px;
+}
+.form-control input[type="radio"],
+ .form-control input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+ }
+ button {
+  background-color: #05c46b;
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 21px;
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+body{
+background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
